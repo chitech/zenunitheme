@@ -61,16 +61,17 @@ template,
 }
 
 a {
-  color: #7513d1;
+  color: #d9411e;
   -webkit-text-decoration-skip: objects;
+  text-transform: uppercase;
 }
 
 :visited {
-  color: #410b74;
+  color: #ebb100;
 }
 
 a:active {
-  color: #d9411e;
+  color: #7513d1;
 }
 
 a:active:not(.button) {
@@ -335,6 +336,7 @@ html [type='button'],
 [type='submit'] {
   -moz-appearance: button;
   -webkit-appearance: button;
+  border-radius: 20px;
 }
 
 .button,
@@ -743,7 +745,7 @@ th {
 }
 
 .box--highlight {
-  border-color: #7513d1;
+  border-color: #d9411e;
 }
 
 .clearfix:before,
