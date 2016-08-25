@@ -1,27 +1,84 @@
 /*Unieros 2016 Styles */
 body {
+	font-size: 1em;
 	font-family:Arial, Helvetica, sans-serif;
 	background-color:#fbfbfb;
 }
-.contact-form {
-	font-size: 1em;
-	background: #ccc;
-	padding: 20px
+header, footer{
+	background:#D9411E;
+	padding:20px;
+	color: #fff;
 }
+
 h1 {
 	display: block;
-    font-size: 2em;
+    font-size: 2.75em;
     -webkit-margin-before: 0.67em;
     -webkit-margin-after: 0.67em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
     font-weight: bold;
     text-transform:uppercase;
-
 }
+article {
+	border-bottom: 1px solid #ccc;
+	margin-bottom:10px;
+	background: #ececec;
+	padding:20px;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+article header {
+	background: #ccc;
+	color:#333;
+}
+
 aside {
 	background: #ffcc33;
 }
+
+/* Article Styles */
+.field p {
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+/*Contact Form */
+.contact-form {
+	border-top: 1px solid #ccc;
+	font-size: 1em;
+	padding: 20px
+}
+
+form {
+	display: block;
+    margin: 0;
+    padding: 0;
+}
+label {
+    display: block;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+input, select, textarea {
+    font-size: 1.5em;
+    margin: 0;
+    padding: 12px;
+    }
+ .button, button, [type='button'], [type='reset'], [type='submit'] {
+    padding: 0.2em 0.4em 0.3em;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    background: #D9411E;
+    border: none;
+    padding: 1em!important;
+    border-radius: .5em;
+    color: #fff;
+
 /* Media Query Mobile first  */
 @media (max-width: 600px) {
   #mainContent {
