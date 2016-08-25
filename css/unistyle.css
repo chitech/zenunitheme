@@ -1,0 +1,33 @@
+/*Unieros 2016 Styles */
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:#fbfbfb;
+}
+.contact-form {
+	font-size: 1em;
+	background: #ccc;
+	padding: 20px
+}
+h1 {
+	display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+    text-transform:uppercase;
+
+}
+aside {
+	background: #ffcc33;
+}
+/* Media Query Mobile first  */
+@media (max-width: 600px) {
+  #mainContent {
+    width:60%;
+    }
+	#rightSidebar {
+    width:40%;
+  }
+}
